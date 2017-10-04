@@ -29,7 +29,7 @@ while($row_ventad=mysql_fetch_array($result_vd)){
 	$totalpago_ven=$row_ventad['TotalPagar'];				
 }
 
-date_default_timezone_set('America/Lima');
+date_default_timezone_set('America/Bogota');
 ?>
 <?php
 $objDetalle = new clsDetalleVenta;
@@ -44,8 +44,8 @@ $result_det=$objDetalle->consultarDetalleVentaPorParametro('id',$idventa);
 	<tr>
     	<td align="center">
         .::<strong> Sistema de Ventas</strong>::.<br>
-        Jesus Danilo Nº 1368<br>
-        Cel. xxxxxxxxxx -  Tel. xxxxxx  R.U.T.: xxxxxxxxxx-x
+        Jesus Danilo Joven C. Nº 1368<br>
+        Cel. 3118429552 -  R.U.T.: 1080932542-1
 		</td>
 	</tr>
     <tr>
@@ -100,7 +100,7 @@ $result_det=$objDetalle->consultarDetalleVentaPorParametro('id',$idventa);
       <td colspan="3" align="center">¡Gracias por su compra!</td>
     </tr>
     <tr>
-      <td colspan="3" align="center">www.onemas.co</td>
+      <td colspan="3" align="center">Visita Nuestro Portafolio www.onemas.co</td>
     </tr>
     <tr>
       <td colspan="3" align="center">Pitalito - Colombia</td>
