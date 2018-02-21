@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     
-    <title>Ventas - Sistema Ventas www.onemas.co</title>
+    <title>...SisMarket....</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
